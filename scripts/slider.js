@@ -5,4 +5,4 @@ counter++;
 if(counter > 4) {
     counter = 1; //returns to the first image
 }
-}, 6000);
+}, 6000); // time to change picture to another

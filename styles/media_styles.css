@@ -121,6 +121,7 @@ h5 {
     padding: 0;
     height: 100vh;
     background: rgb(15, 15, 15);
+   
 }
 
 .slider {
@@ -128,6 +129,7 @@ h5 {
     height: 600px;
     overflow: hidden;
     border-radius: 6px;
+    margin-top: 100px;
 }
 
 .slides {
@@ -241,3 +243,83 @@ justify-content: center;
     
 }
 
+
+/*Movie list */
+
+.movie-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+.movie-list {
+    background-color: rgb(15, 15, 15);
+    padding: 3em;
+}
+
+.movie-card {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+    box-shadow: 3px 5px 5px rgb(26, 26, 26);
+}
+
+.movie-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.movie-card img {
+   max-width: 100%;
+   border-radius: 5px;
+}
+
+.movie-text {
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 0.5em;
+    font-size: 15px;
+}
+
+.movie-btn {
+    background-color: rgb(250, 63, 94);
+    font-weight: bold;
+    border: none;
+    padding: 1.5em;
+    border-radius: 4px;
+}
+
+
+.movie-btn:hover {
+    background-color: rgb(255, 31, 69);
+    color: cyan;
+    box-shadow: 0px 6px 5px rgb(93, 128, 129);
+    transition: 0.3s;
+}
+
+.movie-btn-str {
+    background-color: rgb(250, 63, 94);
+    font-weight: bold;
+    border: none;
+    padding: 1.5em;
+    border-radius: 4px;
+    margin-top: 62px;
+}
+
+
+.movie-btn-str:hover {
+    background-color: rgb(255, 31, 69);
+    color: cyan;
+    box-shadow: 0px 6px 5px rgb(93, 128, 129);
+    transition: 0.3s;
+}
+
+.movie-list h1 {
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 1px 2px 3px black, 0 0 1em rgb(238, 44, 92);
+    color: rgb(231, 5, 81);
+    padding-bottom: 80px;
+}
