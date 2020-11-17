@@ -1,2 +1,2 @@
 # Zenflix
-Webpage about TV seraials and movies
+Webpage about TV serials and movies
