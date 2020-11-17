@@ -212,9 +212,8 @@ h5 {
 .sub-intro {
     color: rgb(255, 127, 187);
 	font-size: 45px;
-	font-family: 'Times New Roman', Times, serif, cursive;
-	text-align: center;
-    margin-left: 100px;
+	margin-left: 180px;
+    text-align: center;
     margin-top: 20px;
 	display: flex;
 	width: 80%;
