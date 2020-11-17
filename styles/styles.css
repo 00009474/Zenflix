@@ -232,7 +232,7 @@ padding-top: 60px;
  	-webkit-animation-timing-function: linear;
  	-webkit-animation-iteration-count: infinite;
  	-webkit-animation-fill-mode: forwards;
- 	transition: font-size 0.5s ease-in-out;
+ 	transition: font-size 0.5s ease-in-out;    /*In order to create gradient in text*/
 }
 
 
