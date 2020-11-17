@@ -25,14 +25,10 @@
     width: 80px;
     height: 80px;
     cursor: pointer;
-    v
+    margin-top: 20px;
 }
 
-.menu_logo {
-width: 30px;
-cursor: pointer;
-margin-left: 50px;
-}
+
 
 nav {
     flex: 1;
