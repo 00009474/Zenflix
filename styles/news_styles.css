@@ -192,4 +192,83 @@ img {
 
 
 
+.sec-news-2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(29, 29, 29);
+}
+
+img {
+    width: 100%;
+}
+
+.news-post-2 {
+    width: 80%;
+    max-width: 90rem;
+    padding: 4rem;
+    background-color: white;
+    box-shadow: 0 1,4rem 8rem rgb(82, 82, 82);
+    display: flex;
+    align-items: center;
+    border-radius: .9rem;
+}
+
+.news-img-2 {
+    transform: translateX(-6rem);
+    position: relative;
+    min-width: 30rem;
+    max-width: 30rem;
+    height: 25rem;
+}
+
+.news-img-2 img {
+    display: block;
+    border-radius: .7rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-info-date-2 span{
+    display: block;
+    color: rgb(63, 63, 63);
+    font-size: 15px;
+    font-weight: 500;
+    margin: .3rem 0;
+}
+
+.news-blog-title-2 {
+    margin: 1.5rem 0 1rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(231, 5, 81);
+}
+
+.news-post-text-2 {
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.news-post-btn-2 {
+    display: inline-block;
+    padding: 1.3rem 3rem ;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 5, 81);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.news-post-btn-2:hover {
+    background-color: rgb(255, 2, 87);
+    transition: .3s;
+}
+
 
