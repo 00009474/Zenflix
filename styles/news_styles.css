@@ -21,8 +21,8 @@
 }
 
 .logo {
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: 70px;
     cursor: pointer;
     margin-top: 20px;
 }
@@ -191,84 +191,124 @@ img {
 }
 
 
+/* Footer */
 
-.sec-news-2 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+footer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
     display: flex;
-    background-color: rgb(29, 29, 29);
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: rgb(7, 7, 46);
 }
 
-img {
-    width: 100%;
+.footer > *{
+flex: 1 100%;
+
 }
 
-.news-post-2 {
-    width: 80%;
-    max-width: 90rem;
-    padding: 4rem;
-    background-color: white;
-    box-shadow: 0 1,4rem 8rem rgb(82, 82, 82);
-    display: flex;
-    align-items: center;
-    border-radius: .9rem;
+.footer-left {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+
 }
 
-.news-img-2 {
-    transform: translateX(-6rem);
-    position: relative;
-    min-width: 30rem;
-    max-width: 30rem;
-    height: 25rem;
+.footer-left img {
+    width: 80px;
+    height: 80px;
 }
 
-.news-img-2 img {
-    display: block;
-    border-radius: .7rem;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.footer-h2 {
+    font-weight: 600;
+    font-size: 17px;
 }
 
-.news-info-date-2 span{
-    display: block;
-    color: rgb(63, 63, 63);
-    font-size: 15px;
-    font-weight: 500;
-    margin: .3rem 0;
+.footer ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-.news-blog-title-2 {
-    margin: 1.5rem 0 1rem;
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: rgb(231, 5, 81);
+.footer li {
+    line-height: 2em;
 }
 
-.news-post-text-2 {
-    margin-bottom: 20px;
-    font-size: 19px;
-}
-
-.news-post-btn-2 {
-    display: inline-block;
-    padding: 1.3rem 3rem ;
-    text-transform: uppercase;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(231, 5, 81);
-    border-radius: 3px;
+.footer a {
     text-decoration: none;
+
 }
 
-.news-post-btn-2:hover {
-    background-color: rgb(255, 2, 87);
+.footer-right {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+
+}
+
+.box a {
+    color: #999;
+
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+
+}
+
+.footer-left p {
+    padding-right: 20%;
+    color: #999;
+
+}
+
+.social a{
+    background:  rgb(118, 131, 242);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.social a :hover {
+    background: rgb(246, 80, 205);
     transition: .3s;
 }
 
+.social a ion-icon{
+    color: white;
+    padding: 10px 12px;
+    font-size: 20px;
+    
+}
 
+@media screen and (min-width: 600px) {
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-left{
+        flex: 1 0px;
+
+    }
+    .footer-right{
+        flex: 2 0px;   
+    }
+}
+
+.box li :hover {
+    color: violet;
+    transition: .6s;
+    margin-left: 10px;
+}
