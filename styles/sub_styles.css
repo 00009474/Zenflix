@@ -207,6 +207,7 @@ h5 {
     font-family: Anton, sans-serif;
     margin-left: 100px;
     padding-top: 20px;
+    color: rgb(250, 63, 94);
     text-align: center;
 }
 
@@ -221,12 +222,13 @@ h5 {
 }
 
 .description {
-    color: rgb(18, 18, 19);
+    color: rgb(165, 165, 165);
     font-size: 30px;
     line-height: 60px;
     margin-left: 130px;
     margin-top: 30px;
-	margin-right: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
 	font-family: Dosis, sans-serif;
 	width: 70%;
 	display: flex;
@@ -239,7 +241,8 @@ h5 {
     font-size: 25px;
     font-weight: bold;
 	color:  rgba(255, 0, 149, 0.972);
-	font-family: "Spartan", sans-serif;
+    font-family: "Spartan", sans-serif;
+    margin-bottom: 20px;
 }
 
 .sub-img {
@@ -248,10 +251,11 @@ h5 {
 
 .sub-video {
     margin-left: 420px;
+    margin-bottom: 20px;
 }
 
 .sub-ben {
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
 }
 
 
