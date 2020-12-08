@@ -186,7 +186,7 @@ color: black;
     margin-bottom: 20px;
 }
 
-ion-icon {
+.checkout ion-icon {
     position: relative;
     bottom: -43px;
     left: 13px;
